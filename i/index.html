@@ -4,8 +4,22 @@
 <meta property="og:title" content="Someone put you in their top 10 on Cuddy 🙌">
 <meta property="og:description" content="Get Cuddy to see who picked you.">
 <meta property="og:image" content="https://cuddyapp.com/logo.png">
-<meta http-equiv="refresh" content="0; url=https://apps.apple.com/app/id6450028991">
-<script>location.replace("https://apps.apple.com/app/id6450028991");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"><style>
+<noscript><meta http-equiv="refresh" content="0; url=https://apps.apple.com/app/id6450028991"></noscript>
+<script>
+// Sends people to the App Store, keeping where they came from: ?src=ig, snap,
+// invite, or a school or campaign name (?src=westlake). With Apple's provider
+// token, App Store Connect counts downloads per src (Analytics > Acquisition >
+// Campaigns).
+var PROVIDER_TOKEN = "126423833";
+var src = (new URLSearchParams(location.search).get("src") || "").toLowerCase().replace(/[^a-z0-9_-]/g, "").slice(0, 40);
+var store = "https://apps.apple.com/app/apple-store/id6450028991";
+if (PROVIDER_TOKEN && src) store += "?pt=" + PROVIDER_TOKEN + "&ct=" + src + "&mt=8";
+location.replace(store);
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.querySelector(".btn");
+  if (btn) btn.href = store;
+});
+</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"><style>
 :root{--blue:#0A3A94;--blue2:#0244B1;--card:#0D3C83;--orange:#FF6600;--peach:#FFA48E;--ink:#FFFFFF;--soft:#D4EEFF}
 *{box-sizing:border-box}
 html,body{margin:0}
