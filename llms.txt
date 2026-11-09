@@ -1,0 +1,16 @@
+# Cuddy
+
+> Cuddy ("Cuddy: Top 5 Friends") is an iPhone app for teens and young adults, ages 13 and up. You pick your top 5 friends from your contacts, post the list to your Snapchat or Instagram story, and find out who put you in theirs.
+
+- Pick your top 5: choose up to 5 friends from your contacts and order them. Inviting one friend by text (or subscribing) unlocks spots 6 to 10.
+- Post it to your story: share your list to Instagram or Snapchat in one tap. Friends appear the way you saved them, first names and nicknames only.
+- See who likes you back: when someone puts you in their top 5, you get an anonymous notification such as "A girl put you in her top 5". A weekly subscription ($2.99/week in the US) shows who it was.
+- It's mutual: when two people pick each other, both find out, free.
+
+## Links
+
+- [Download on the App Store](https://apps.apple.com/app/id6450028991)
+- [Safety](https://cuddyapp.com/safety/)
+- [Terms of Service](https://cuddyapp.com/terms/)
+- [Privacy Policy](https://cuddyapp.com/privacy/)
+- Contact: partnerships@cuddyapp.com
